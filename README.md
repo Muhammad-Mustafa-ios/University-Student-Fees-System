@@ -6,33 +6,7 @@ These tasks are part of academic practice to understand how inheritance, virtual
 
 ---
 
-## 📌 Task 01: Calculator Engine (Runtime Polymorphism)
 
-### 🔍 Overview
-
-This program demonstrates **runtime polymorphism** using a simple calculator system.
-
-* A base class `Operation` defines a virtual function `perform(double a, double b)`
-* Derived classes:
-
-  * `Addition`
-  * `Subtraction`
-  * `Multiplication`
-* Each class overrides the `perform()` function with its own logic
-
-### ⚙️ Key Concept
-
-Using an array of base class pointers (`Operation*`), different operations are executed at runtime depending on the object type.
-
-### ✅ Output Example
-
-```
-Addition: 10 + 5 = 15
-Subtraction: 10 - 5 = 5
-Multiplication: 10 * 5 = 50
-```
-
----
 
 ## 📌 Task 02: University Fee Management System
 
@@ -68,44 +42,6 @@ Dynamic dispatch is used through `Student*` pointers to call the correct `calcul
 
 ---
 
-## 📌 Task 03: Personnel Record Management System
-
-### 🔍 Overview
-
-This program demonstrates **abstract classes** and real-life data handling.
-
-* Abstract base class `Person`
-
-  * Pure virtual functions:
-
-    * `getData()`
-    * `showData()`
-* Derived classes:
-
-  * `Student` (Roll No, GPA)
-  * `Lecturer` (Employee ID, Department)
-
-### ⚙️ Key Concept
-
-Using base class pointers (`Person*`) to handle different types of personnel records.
-
-### ✅ Features
-
-* Takes user input
-* Stores different record types
-* Displays structured information
-
----
-
-## 🧠 Concepts Covered
-
-* Inheritance
-* Function Overriding
-* Virtual Functions
-* Pure Virtual Functions
-* Abstract Classes
-* Runtime Polymorphism (Dynamic Binding)
-* Base Class Pointers
 
 ---
 
